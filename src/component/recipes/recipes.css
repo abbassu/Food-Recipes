@@ -1,0 +1,41 @@
+.recipes{
+  height: 5000px;
+  padding: 0 5%;
+  background-color: rgb(106, 94, 71);
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.tabel_for_all_recipes{
+  background-color: tomato;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search{
+  width: 100%;
+  height: 100px;
+  background-color: cadetblue;
+  text-align: center;
+  
+}
+.all-food{
+    
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
+    gap: 20px 20px ;
+    background-color: rgb(132, 211, 75);
+    padding: 20px 40px;
+  }
+.filter{
+    width: 600px;
+    background-color: saddlebrown;
+}
+
+/* start search div   ////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+/* end search div   ////////////////////////////////////////////////////////////////////////////////////// */
