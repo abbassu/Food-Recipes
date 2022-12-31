@@ -47,7 +47,7 @@ function Recipes({all_recipes}){
             <SearchFilter fun={onchangefilter}/>
 
             <div className="all-food">
-            
+            {console.log("ggggggggggggg")}
             {
                 
                 recipes.map((element,index)=>{
