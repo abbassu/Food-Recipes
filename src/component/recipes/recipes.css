@@ -1,41 +1,42 @@
+
+:root{
+  --yellow:#F9DF5E;
+  --red: #ff575f;
+  --blue:#AABBCC  ;
+  --green:  #009343  ;
+}
+
 .recipes{
-  height: 5000px;
+  /* height: 5000px; */
   padding: 0 5%;
-  background-color: rgb(106, 94, 71);
   padding-top: 30px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .tabel_for_all_recipes{
-  background-color: tomato;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
 }
 .search{
   width: 100%;
   height: 100px;
-  background-color: cadetblue;
   text-align: center;
-  
 }
 .all-food{
-    
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
-    gap: 20px 20px ;
-    background-color: rgb(132, 211, 75);
-    padding: 20px 40px;
-  }
-.filter{
-    width: 600px;
-    background-color: saddlebrown;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-/* start search div   ////////////////////////////////////////////////////////////////////////////////////// */
-
-
-
-/* end search div   ////////////////////////////////////////////////////////////////////////////////////// */
+@media (max-width:680px) {
+  .tabel_for_all_recipes{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

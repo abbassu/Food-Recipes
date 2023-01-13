@@ -1,0 +1,68 @@
+:root{
+    --yellow:#F9DF5E;
+    --red: #ff575f;
+    --blue:#AABBCC  ;
+    --green:  #009343  ;
+    --wblue:#1780C1;
+  }
+.parentfoot{
+    background-color: var(--green);
+    width: 100%;
+}
+.footer{
+    width: 80%;
+    margin: 0px auto 0px;
+    min-height: 440px;
+    background-color: var(--green);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 140px;
+    padding-bottom: 50px;
+
+}
+
+.title_foot{
+    font-size: 22px;
+    margin-bottom: 30px;
+    /* background-color: var(--yellow); */
+    width: 300px;
+    font-weight: 500;
+}
+
+.fa-instagram{
+    color: rgb(192, 70, 198);
+}
+.fa-youtube{
+    color: red;
+}
+.fa-twitter{
+    color: rgb(218, 105, 233);
+}
+.fa-facebook{
+    color: rgb(62, 62, 225);
+}
+.iconinfoot{
+    width: 300px;
+    display: flex;
+    padding: 10px 50px;
+    justify-content: center;
+}
+
+.iconinfoot .fa-brands{
+    cursor: pointer;
+    margin: 5px 10px;
+}
+.textinfoot{
+    font-size: 18px;
+}
+@media (max-width:1200px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    
+}

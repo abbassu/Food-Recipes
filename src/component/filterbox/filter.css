@@ -1,0 +1,41 @@
+:root{
+    --yellow:#F9DF5E;
+    --red: #ff575f;
+    --blue:#AABBCC  ;
+    --green:  #009343  ;
+  }
+
+.filter{
+    width: 400px;
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    margin-bottom: 12px;
+    font-size: 30px;
+}
+.fff1 {
+    width: 100%;
+    margin: 0;
+    height: 60px;
+    border-radius: 0;
+    background-color: var(--blue)
+}
+.box{
+    padding: 5px 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    background-color: var(--yellow);
+    font-size: 20px;
+}
+input[type=checkbox] {
+    margin-left: 50px;
+    width: 30px;
+}
+@media (max-width: 680px) {
+    .filter{
+        width: 300px;
+        margin-top: 50px;
+    }
+}

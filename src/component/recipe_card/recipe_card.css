@@ -1,4 +1,11 @@
 
+:root{
+    --yellow:#F9DF5E;
+    --red: #ff575f;
+    --blue:#AABBCC  ;
+    --green:  #009343  ;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -8,31 +15,33 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-
+    /* padding: 10px 5px; */
+    margin-bottom: 15px;
+    text-decoration: none;
 }
 p {
-    width: 200px;
-    padding: 14px 6px 0 6px;
+    width: 0px;
     white-space: nowrap;
     overflow: hidden;
   }
 .title{
-    padding: 15px 20px ;
+    padding: 10px 20px ;
     opacity: 0.5;
     transition :0.3s;
     background-color: rgb(207, 218, 155);
     width: 100%;
-    max-width: 320px;
-    height: 60px;
+    max-width: 300px;
+    height: 50px;
     font-size: 22px;
     font-weight: 400;
     text-overflow: ellipsis;
     text-align: center;
+    border: none; 
 }
 
 .responsive{
     width: 100%;
-    max-width: 320px;
+    max-width: 300px;
     height: auto;
     transition :0.3s;
 }
@@ -43,7 +52,7 @@ p {
 }
 .card:hover .title{
     color: rgb(255, 255, 255);
-    background-color: rgb(216, 118, 13);
+    background-color: var(--green)
 }
 
 .no_photo{

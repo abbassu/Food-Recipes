@@ -1,0 +1,47 @@
+
+.pricebreakdown{
+    width: 100%;
+    padding: 20px;
+}
+
+.nameoftext{
+    min-width: 300px;
+    margin-right:10px ;
+
+}
+.pricevalue{
+
+   min-width: 100px;
+}
+.block_price{
+    font-size: 18px;
+    font-weight: 100;
+    margin: 5px 20px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total{
+    font-size: 20px;
+    font-weight: 400;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 37%;
+    margin: 20px ;
+
+}
+
+@media (max-width: 768px) {
+    .block_price {
+        display: block;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .nameoftext{
+        min-width: 200px;
+    }
+
+}
