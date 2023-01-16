@@ -10,14 +10,18 @@
     box-sizing: border-box;
 }
 .card{
+
+    /* border-color: blue; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
+    /* bs-card-border-color; */
     /* padding: 10px 5px; */
     margin-bottom: 15px;
     text-decoration: none;
+
 }
 p {
     width: 0px;
@@ -37,6 +41,7 @@ p {
     text-overflow: ellipsis;
     text-align: center;
     border: none; 
+    border-radius: 5px;
 }
 
 .responsive{
