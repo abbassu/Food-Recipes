@@ -7,7 +7,7 @@ This site will display the names of the meals, their ingredients, and the prices
 1. this app will have a 4 page as shown below
 
 
-![home page](public/image/s12.png)
+![home page](public/image/all_home.png)
 
 ### `npm start`
 ![home page](public/image/s13.png)
