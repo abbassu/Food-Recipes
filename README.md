@@ -6,12 +6,14 @@ This site will display the names of the meals, their ingredients, and the prices
 
 1. this app will have a 4 page as shown below
 
-
+A- Home Page
 ![home page](public/image/all_home.png)
-![home page](public/image/contact_us.png)
+A- Recipes Page
 ![home page](public/image/recipes.png)
+A- Story Page
 ![home page](public/image/story.png)
-
+A- Contact Page
+![home page](public/image/contact_us.png)
 
 
 ### `npm start`
