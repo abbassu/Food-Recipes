@@ -11,9 +11,7 @@ function Recipe_card ({recipe}){
                     : 
                     <h2 className="no_photo"> -THERE IS NO PHOTO-  </h2>
             }
-            
         </Link>
-        
 </div>
 
     )
