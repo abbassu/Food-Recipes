@@ -8,6 +8,9 @@ This site will display the names of the meals, their ingredients, and the prices
 
 
 ![home page](public/image/all_home.png)
+![home page](public/image/contact_us.png)
+
+
 
 ### `npm start`
 ![home page](public/image/s13.png)
