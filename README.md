@@ -20,8 +20,14 @@ This site will display the names of the meals, their ingredients, and the prices
 ![home page](public/image/recipes.png)
 
 ## when user click on recipe will display all information about this recipe in a new page like it
+Recipe 1
 ![home page](public/image/recipe1.png)
+
+Recipe 2
+
 ![home page](public/image/recipe2.png)
+Recipe 3
+
 ![home page](public/image/recipe3.png)
 
 
